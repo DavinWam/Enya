@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: ForestEncounter 5
+  m_EditorClassIdentifier: 
+  encounterID: 14
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: 2, y: 4, z: -6}
+  enemyPrefabs:
+  - {fileID: 6947386978212012749, guid: 7d104d55c4fd7ad4cad01ff80214e2c2, type: 3}
+  - {fileID: 7802671966995914233, guid: 38660685a4ca13245849d6b7968cd8e8, type: 3}
+  - {fileID: 3420677193249378614, guid: 5d308e21a97ebda40b33e8e7603a47d8, type: 3}
+  - {fileID: 7802671966995914233, guid: 38660685a4ca13245849d6b7968cd8e8, type: 3}
+  - {fileID: 6947386978212012749, guid: 7d104d55c4fd7ad4cad01ff80214e2c2, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 931d1c9818e2f3f4e8357b9473d0b086, type: 2}
+  - {fileID: 11400000, guid: a2d164b0991e3da41b5214227f0b7302, type: 2}
+  - {fileID: 11400000, guid: 8148cfe6a6332f246a7697566f651796, type: 2}
+  - {fileID: 11400000, guid: a2d164b0991e3da41b5214227f0b7302, type: 2}
+  - {fileID: 11400000, guid: 931d1c9818e2f3f4e8357b9473d0b086, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: -419.40002, y: 13.34, z: -450.79}
+  - {x: -417.54, y: 13.34, z: -447.79}
+  - {x: -419.74002, y: 13.34, z: -445.23}
+  - {x: -421.48, y: 13.34, z: -445.02002}
+  - {x: -421.48, y: 14.34, z: -441.52002}
+  partyBattlePositions:
+  - {x: -430.39, y: 13.34, z: -449.39}
+  - {x: -432.39, y: 13.34, z: -446.89}
+  - {x: -431.39, y: 13.34, z: -445.89}
+  - {x: -429.23, y: 13.34, z: -442.18002}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 0100000002000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  - mainIndex: 2
+    adjacentIndices: 0000000003000000
+  - mainIndex: 3
+    adjacentIndices: 02000000

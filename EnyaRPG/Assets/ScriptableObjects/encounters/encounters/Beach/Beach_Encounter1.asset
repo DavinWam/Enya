@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: Beach_Encounter1
+  m_EditorClassIdentifier: 
+  encounterID: 1
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: -0.24, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 7802671966995914233, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+  - {fileID: 7802671966995914233, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+  - {fileID: 7802671966995914233, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 0d935042428bef44fbfae55ad0ca573f, type: 2}
+  - {fileID: 11400000, guid: 2cbbd0f4a3384194480b50f5883daee1, type: 2}
+  - {fileID: 11400000, guid: 2cbbd0f4a3384194480b50f5883daee1, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: 43.50688, y: -3.2600002, z: -63.63528}
+  - {x: 45.36688, y: -3.2600002, z: -60.63528}
+  - {x: 43.16688, y: -3.2600002, z: -58.07528}
+  - {x: 41.42688, y: -3.2600002, z: -57.86528}
+  partyBattlePositions:
+  - {x: 32.51688, y: -2.8600001, z: -62.23528}
+  - {x: 30.51688, y: -2.8600001, z: -59.73528}
+  - {x: 31.51688, y: -2.8600001, z: -58.73528}
+  - {x: 33.67688, y: -2.8600001, z: -55.02528}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 01000000
+  - mainIndex: 3
+    adjacentIndices: 0100000002000000

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: LightningSpell4
+  m_EditorClassIdentifier: 
+  spellName: Precision Bolt Lance
+  description: If the target is "Static Charged", this spell will remove the "Static
+    Charged" state and guarantee a critical hit.
+  manaCost: 18
+  basePower: 1.5
+  unlockLevel: 17
+  numHits: 1
+  fireType: 1
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 11400000, guid: 85dc4eb9d678e6141b6ff28f4e92cff1, type: 2}
+  postDamageConditions: {fileID: 0}
+  effectType: 3
+  spellPrefab: {fileID: 5831584917269480571, guid: 78b62c33803364b49bc03ebb69a53c99, type: 3}
+  spellAnimationType: 1
+  xCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.35211605
+      value: 0.09075788
+      inSlope: 0.6470227
+      outSlope: 0.6470227
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6221236
+    - serializedVersion: 3
+      time: 0.4942932
+      value: 1.4586391
+      inSlope: 3.4126947
+      outSlope: 3.4126947
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6639821
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

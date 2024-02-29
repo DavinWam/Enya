@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: CloudSpell5
+  m_EditorClassIdentifier: 
+  spellName: 'Tempest''s Gift '
+  description: 'The entire party is surrounded by a protective tempest, granting
+    each member power charge to user + three random buffs to the party. '
+  manaCost: 35
+  basePower: 0
+  unlockLevel: 0
+  numHits: 0
+  fireType: 5
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 11400000, guid: 88f36f130e66ed44f9f4829d1cad0c63, type: 2}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 0}
+  postDamageConditions: {fileID: 11400000, guid: c31c9a24b35155d41a05bbcf34ee6651, type: 2}
+  effectType: 8
+  spellPrefab: {fileID: 5296894272165537817, guid: 337ddacc97e942a49afffc03bcdc415d, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

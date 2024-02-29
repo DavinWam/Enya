@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8476911503365108594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 424412168782418336, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 424412168782418336, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 792461094474575455, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: characterName
+      value: Stealer Brute Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 792461094474575455, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cc5b9ea2215f4f44fb722b6c96adc975, type: 3}
+    - target: {fileID: 2096128041179699779, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096128041179699779, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6547290275970490948, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_Name
+      value: Stealer Brute Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130287529854416981, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.198874
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130287529854416981, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130287529854416981, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_Color.r
+      value: 0.13522008
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7804474865984712027, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83a268e4aeaed3e4198e7fdbe330575c, type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: RainSpell4
+  m_EditorClassIdentifier: 
+  spellName: Cascade Clarity
+  description: Targets one ally. For the next few turns, the ally's speed is increased
+    as well as mana, ensuring they get more turns to capitalize on the reduced spell
+    costs.
+  manaCost: 20
+  basePower: 0
+  unlockLevel: 15
+  numHits: 1
+  fireType: 3
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 11400000, guid: 516d33eadef831946a7f40e0bb71f7c3, type: 2}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 11400000, guid: ec55306406e32834a8567476d2c71386, type: 2}
+  postDamageConditions: {fileID: 11400000, guid: a0448d0e5c909df488ec7d5312499a16, type: 2}
+  effectType: 6
+  spellPrefab: {fileID: 5296894272165537817, guid: 07af857109ebb7246a0c927041991ba6, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

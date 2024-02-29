@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f41e41aa7621e45a617e63bddd1804, type: 3}
+  m_Name: Quickness
+  m_EditorClassIdentifier: 
+  spellName: Quickness
+  description: raises speed of an ally
+  manaCost: 0
+  basePower: 1
+  unlockLevel: 0
+  numHits: 0
+  fireType: 7
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 11400000, guid: a06b2516128b45a4f8f71dbd950ad72e, type: 2}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 0}
+  postDamageConditions: {fileID: 0}
+  effectType: 6
+  spellPrefab: {fileID: 5874055172692424439, guid: a9d0f45ae0249ef48bc9405ddccbd16b, type: 3}
+  spellAnimationType: 2
+  xCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}
+  targetType: 3
+  EffectIcon: {fileID: 0}
+  chance: 0.3
+  windUpLength: 2
+  cooldown: 5
+  currentCooldown: 0
+  spawn: {fileID: 0}
+  spawnStats: {fileID: 0}

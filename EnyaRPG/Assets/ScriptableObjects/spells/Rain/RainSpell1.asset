@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: RainSpell1
+  m_EditorClassIdentifier: 
+  spellName: 'Mist of Renewal:'
+  description: Heals a single ally slightly.
+  manaCost: 10
+  basePower: 0.75
+  unlockLevel: 2
+  numHits: 1
+  fireType: 3
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 0}
+  postDamageConditions: {fileID: 0}
+  effectType: 0
+  spellPrefab: {fileID: 5296894272165537817, guid: 9b13326fe892a6644a7c6b0c706b17be, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

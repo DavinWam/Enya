@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1067549387789107048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -7899101688016844117, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: characterName
+      value: Hero Candidate
+      objectReference: {fileID: 0}
+    - target: {fileID: -7899101688016844117, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: characterSprite
+      value: 
+      objectReference: {fileID: 1375713393, guid: 92e8807ebc587194489a408b612b22e2, type: 3}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -151.4573
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 12.982954
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 152.75851
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075553966181059203, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255141827388015106, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1375713393, guid: 92e8807ebc587194489a408b612b22e2, type: 3}
+    - target: {fileID: 6465725458867004811, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 72ddd924383433c46902e0a79840e047, type: 2}
+    - target: {fileID: 7484581644492226952, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484581644492226952, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802671966995914233, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_Name
+      value: starterEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163614261321075307, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163614261321075307, guid: 27f06173d8fccf948be8244acda91c24, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27f06173d8fccf948be8244acda91c24, type: 3}

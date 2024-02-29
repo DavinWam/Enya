@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: CloudSpell4
+  m_EditorClassIdentifier: 
+  spellName: Mist Mantle
+  description: A swirling mist surrounds all enemies, dealing damage relative to
+    the amount of buffs you have(0 buff 0 damage)
+  manaCost: 25
+  basePower: 0
+  unlockLevel: 0
+  numHits: 0
+  fireType: 5
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 11400000, guid: 33834955d1f3efd4d801d1b7aa824746, type: 2}
+  postDamageConditions: {fileID: 0}
+  effectType: 5
+  spellPrefab: {fileID: 2933719959596172706, guid: 25f92ca566d43694797e349ebdc6c63e, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

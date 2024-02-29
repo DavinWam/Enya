@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: StormSpell2
+  m_EditorClassIdentifier: 
+  spellName: Gusting Blow
+  description: "Sends a gust to all enemies, increasing speed for every \u201CGusted\u201D
+    enemy hit."
+  manaCost: 10
+  basePower: 0.7
+  unlockLevel: 2
+  numHits: 1
+  fireType: 0
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 11400000, guid: de8fc9864e24b3140993608d6ca4d1db, type: 2}
+  postDamageConditions: {fileID: 0}
+  effectType: 5
+  spellPrefab: {fileID: 5874055172692424439, guid: a9d0f45ae0249ef48bc9405ddccbd16b, type: 3}
+  spellAnimationType: 4
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: -1, y: 0, z: 0}

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: ForestEncounter 4
+  m_EditorClassIdentifier: 
+  encounterID: 13
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: 2, y: 4, z: -6}
+  enemyPrefabs:
+  - {fileID: 6947386978212012749, guid: 7d104d55c4fd7ad4cad01ff80214e2c2, type: 3}
+  - {fileID: 7802671966995914233, guid: c2960bed84d82724f80a3a97059133fb, type: 3}
+  - {fileID: 7802671966995914233, guid: c2960bed84d82724f80a3a97059133fb, type: 3}
+  - {fileID: 6947386978212012749, guid: 7d104d55c4fd7ad4cad01ff80214e2c2, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 931d1c9818e2f3f4e8357b9473d0b086, type: 2}
+  - {fileID: 11400000, guid: aee5be8d35a758c4eace9c52f90847fa, type: 2}
+  - {fileID: 11400000, guid: aee5be8d35a758c4eace9c52f90847fa, type: 2}
+  - {fileID: 11400000, guid: 931d1c9818e2f3f4e8357b9473d0b086, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: -346.71002, y: 8.83, z: -510.15}
+  - {x: -344.85, y: 8.83, z: -507.15}
+  - {x: -347.05002, y: 8.83, z: -504.59}
+  - {x: -348.79, y: 8.83, z: -504.38}
+  partyBattlePositions:
+  - {x: -357.7, y: 8.83, z: -508.75}
+  - {x: -359.7, y: 8.83, z: -506.25}
+  - {x: -358.7, y: 8.83, z: -505.25}
+  - {x: -356.54, y: 8.83, z: -501.54}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 0100000002000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  - mainIndex: 2
+    adjacentIndices: 0000000003000000
+  - mainIndex: 3
+    adjacentIndices: 02000000

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: StormSpell3
+  m_EditorClassIdentifier: 
+  spellName: CyclonePull
+  description: Creates a cyclone pulling and damaging adjacent enemies. If they are
+    under "Gusted", the damage is increased.
+  manaCost: 15
+  basePower: 1.25
+  unlockLevel: 10
+  numHits: 1
+  fireType: 0
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 0}
+  preDamageConditions: {fileID: 11400000, guid: 592c8c1e2d167e349a5726bdd40a8b82, type: 2}
+  postDamageConditions: {fileID: 0}
+  effectType: 2
+  spellPrefab: {fileID: 5091006080643315336, guid: a661bfe649634fc43abd60b1ba13d07c, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

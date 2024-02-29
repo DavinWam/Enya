@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d328039cbe372c42ac71b311573fd22, type: 3}
+  m_Name: decaying blast zombie
+  m_EditorClassIdentifier: 
+  baseHealth: 250
+  currentHealth: 250
+  baseAttack: 63
+  baseDefense: 16
+  baseSpeed: 65
+  weakness: 7
+  activeStatusEffects: []
+  spells:
+  - {fileID: 11400000, guid: fcc54a958527e3949a35f2c9c11ba486, type: 2}
+  - {fileID: 11400000, guid: b8e0af5aa6adc1f4885bc3c0b1e5b902, type: 2}
+  expGiven: 13000

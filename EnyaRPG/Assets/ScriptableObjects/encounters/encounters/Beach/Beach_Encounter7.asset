@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: Beach_Encounter7
+  m_EditorClassIdentifier: 
+  encounterID: 7
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: -0.24, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 3449340828647311980, guid: 141e05c63a052284a8e6710f2a4a2b25, type: 3}
+  - {fileID: 3449340828647311980, guid: 141e05c63a052284a8e6710f2a4a2b25, type: 3}
+  - {fileID: 3449340828647311980, guid: 141e05c63a052284a8e6710f2a4a2b25, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 9f7bc5927d5e75b449088f2c3710a240, type: 2}
+  - {fileID: 11400000, guid: 9f7bc5927d5e75b449088f2c3710a240, type: 2}
+  - {fileID: 11400000, guid: 9f7bc5927d5e75b449088f2c3710a240, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: 133.09749, y: 2.89, z: -309.76437}
+  - {x: 135.60748, y: 2.8300002, z: -306.76437}
+  - {x: 133.41748, y: 2.8600001, z: -305.07437}
+  - {x: 130.86748, y: 2.6000001, z: -303.9644}
+  partyBattlePositions:
+  - {x: 128.43748, y: 4.57, z: -312.83438}
+  - {x: 126.397484, y: 2.6800003, z: -308.19437}
+  - {x: 122.827484, y: 3.88, z: -305.8744}
+  - {x: 126.63748, y: 2.5600002, z: -303.79437}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 01000000
+  - mainIndex: 3
+    adjacentIndices: 0100000002000000

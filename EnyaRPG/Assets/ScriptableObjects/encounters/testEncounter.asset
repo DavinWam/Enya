@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: testEncounter
+  m_EditorClassIdentifier: 
+  encounterID: 420
+  offset: {x: -0.24, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 2697203249665075327, guid: f969b700b4d66484cb1f3258f9cd10d4, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 7ec63b5b0c335dc4c9f16b1b73e6d7f1, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: 11.99, y: 1, z: -5.15}
+  - {x: 13.85, y: 1, z: -2.15}
+  - {x: 11.65, y: 1, z: 0.4100001}
+  - {x: 9.91, y: 1, z: 0.6199999}
+  partyBattlePositions:
+  - {x: 1, y: 1, z: -3.75}
+  - {x: -1, y: 1, z: -1.25}
+  - {x: 0, y: 1, z: -0.25}
+  - {x: 2.1599998, y: 1, z: 3.46}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 01000000
+  - mainIndex: 3
+    adjacentIndices: 0100000002000000

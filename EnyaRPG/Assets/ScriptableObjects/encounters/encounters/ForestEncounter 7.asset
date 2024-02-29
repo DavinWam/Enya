@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: ForestEncounter 7
+  m_EditorClassIdentifier: 
+  encounterID: 16
+  battleMusic: {fileID: 8300000, guid: f0ca5d60c4b1b774dbd48a10e7acacab, type: 3}
+  offset: {x: 2, y: 4, z: -10}
+  enemyPrefabs:
+  - {fileID: 7802671966995914233, guid: d5f23d06d0571014a97eff95d57dd65e, type: 3}
+  - {fileID: 7800983394829664093, guid: 55a1a71c8b2e58a45a276593981b34b6, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: d4aa3e0b0aafe274a8f16208a7d784a6, type: 2}
+  - {fileID: 11400000, guid: e20a64624efe86240b7c107fc5074d1e, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: -553.88, y: 42.16, z: -108.52}
+  - {x: -553.01996, y: 40.95, z: -113.77}
+  - {x: -555.83, y: 40.95, z: -109.89}
+  - {x: -557.57, y: 40.95, z: -109.68}
+  - {x: -557.57, y: 41.95, z: -106.18}
+  partyBattlePositions:
+  - {x: -574.26, y: 40.95, z: -110.25}
+  - {x: -576.26, y: 40.95, z: -107.75}
+  - {x: -575.26, y: 40.95, z: -106.75}
+  - {x: -573.1, y: 40.95, z: -103.04}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 0100000002000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  - mainIndex: 2
+    adjacentIndices: 0000000003000000
+  - mainIndex: 3
+    adjacentIndices: 02000000

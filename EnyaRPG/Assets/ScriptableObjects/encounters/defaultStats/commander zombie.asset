@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d328039cbe372c42ac71b311573fd22, type: 3}
+  m_Name: commander zombie
+  m_EditorClassIdentifier: 
+  baseHealth: 1000
+  currentHealth: 1000
+  baseAttack: 38
+  baseDefense: 18
+  baseSpeed: 43
+  weakness: 7
+  activeStatusEffects: []
+  spells:
+  - {fileID: 11400000, guid: ac48f9563f5350c4893b4e93520204ac, type: 2}
+  - {fileID: 11400000, guid: 99da73309f04b7a42825a6b1cd87d25c, type: 2}
+  - {fileID: 11400000, guid: 7e99e8ebf7602d34c8358575ba58ecef, type: 2}
+  expGiven: 14550

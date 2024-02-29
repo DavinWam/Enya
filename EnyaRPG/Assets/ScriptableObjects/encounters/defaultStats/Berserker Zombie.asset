@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d328039cbe372c42ac71b311573fd22, type: 3}
+  m_Name: Berserker Zombie
+  m_EditorClassIdentifier: 
+  baseHealth: 300
+  currentHealth: 300
+  baseAttack: 26
+  baseDefense: 18
+  baseSpeed: 22
+  weakness: 7
+  activeStatusEffects: []
+  spells:
+  - {fileID: 11400000, guid: 614711a85b20ac84282e55459e4e6d5d, type: 2}
+  - {fileID: 11400000, guid: 7e2d70f891da34142bcb41ebff098fbf, type: 2}
+  expGiven: 4000

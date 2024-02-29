@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: Beach_Encounter8
+  m_EditorClassIdentifier: 
+  encounterID: 8
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: 2, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 631454483280528899, guid: 3fe365904aa59d24f8d134f4c91ad683, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 7127f02405d8b704eab1c1d5887d8781, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: 94.96, y: 0.6799992, z: -401.16998}
+  - {x: 92.39, y: 1.2199992, z: -405.33}
+  - {x: 93.240005, y: 0.5499992, z: -397.34998}
+  - {x: 94.4, y: 0.7699992, z: -394.61}
+  partyBattlePositions:
+  - {x: 82.68, y: 0.9599992, z: -404.75998}
+  - {x: 80.130005, y: 1.3599992, z: -402.71997}
+  - {x: 81.75, y: 1.3599992, z: -400.12997}
+  - {x: 78.43, y: 1.3599992, z: -397.4}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 0100000002000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  - mainIndex: 2
+    adjacentIndices: 0000000003000000
+  - mainIndex: 3
+    adjacentIndices: 02000000

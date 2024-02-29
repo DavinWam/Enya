@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2210bd9b4dc9b4b44b5a8b8095264ef9, type: 3}
+  m_Name: LightningSpell3
+  m_EditorClassIdentifier: 
+  spellName: 'Static Buildup '
+  description: A surging electric field that when crits makes the enemy "Static Charged",
+    more vulnerable to critical hits.
+  manaCost: 12
+  basePower: 0.8
+  unlockLevel: 8
+  numHits: 1
+  fireType: 1
+  fireIcon: {fileID: 0}
+  applySelf: {fileID: 0}
+  applyTarget: {fileID: 11400000, guid: fea0bbee94ac7df4e97dbf5b5651dc30, type: 2}
+  preDamageConditions: {fileID: 11400000, guid: 0216d669fa2c14d41aa36fc777ab70a4, type: 2}
+  postDamageConditions: {fileID: 0}
+  effectType: 3
+  spellPrefab: {fileID: 2933719959596172706, guid: 6f360a0aad03e674dbf1300f54e4f59a, type: 3}
+  spellAnimationType: 3
+  xCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.35211605
+      value: 0.09075788
+      inSlope: 0.6470227
+      outSlope: 0.6470227
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6221236
+    - serializedVersion: 3
+      time: 0.4942932
+      value: 1.4586391
+      inSlope: 3.4126947
+      outSlope: 3.4126947
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6639821
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  yCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.008079529
+      value: 1.990835
+      inSlope: -2.01665
+      outSlope: -2.01665
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: -0.009521484
+      inSlope: -2.01665
+      outSlope: -2.01665
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vfxSpawnOffset: {x: 0, y: 0, z: 0}

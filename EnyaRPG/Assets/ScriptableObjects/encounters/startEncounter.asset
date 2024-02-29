@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: startEncounter
+  m_EditorClassIdentifier: 
+  encounterID: 19
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  ifFirstLoad: 0
+  offset: {x: -0.24, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 7104457357520429713, guid: 754fdfbc824e04b4588d8c81b4f185aa, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 5654a2d508a62ae4cb7b0fc9e2b706b9, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: -144.59, y: 14.04, z: 152.46}
+  - {x: -142.73, y: 14.04, z: 155.46}
+  - {x: -144.93, y: 14.04, z: 158.02}
+  - {x: -146.67, y: 14.04, z: 158.23}
+  partyBattlePositions:
+  - {x: -155.57999, y: 14.3, z: 153.86}
+  - {x: -157.57999, y: 14.3, z: 156.36}
+  - {x: -156.57999, y: 14.3, z: 157.36}
+  - {x: -154.41998, y: 14.3, z: 161.07}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 00000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 01000000
+  - mainIndex: 3
+    adjacentIndices: 0100000002000000
+  savedLocation: {x: -151.81, y: 14.3, z: 155.61}

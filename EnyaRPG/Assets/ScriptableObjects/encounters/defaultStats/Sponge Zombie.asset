@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d328039cbe372c42ac71b311573fd22, type: 3}
+  m_Name: Sponge Zombie
+  m_EditorClassIdentifier: 
+  baseHealth: 2000
+  currentHealth: 2000
+  baseAttack: 30
+  baseDefense: 10
+  baseSpeed: 10
+  weakness: 7
+  activeStatusEffects: []
+  spells:
+  - {fileID: 11400000, guid: b301029ce1929a94fb03c5114ab14df5, type: 2}
+  - {fileID: 11400000, guid: 58455e677e7b0ca4bb984faa472668c3, type: 2}
+  expGiven: 50

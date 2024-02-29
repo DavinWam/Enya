@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0471291cc4991c449bb858b25131ab6, type: 3}
+  m_Name: SunStats
+  m_EditorClassIdentifier: 
+  baseHealth: 15
+  currentHealth: 15
+  baseAttack: 15
+  baseDefense: 15
+  baseSpeed: 15
+  weakness: 7
+  activeStatusEffects: []
+  exp: 0
+  totalExp: 0
+  expToNextLevel: 10
+  level: 1
+  baseMana: 15
+  currentMana: 15
+  fireType: 2
+  critRate: 0.15
+  blockRate: 0.15
+  spellList: []
+  equippedGear: []
+  isClone: 1
+  growths: {fileID: 11400000, guid: f7d3f26de1e1df3488d252c82a38e5ed, type: 2}
+  adjustments:
+  - {fileID: 0}
+  gameData: {fileID: 11400000, guid: 2ec625c4562d4234297b32fe153a06d2, type: 2}

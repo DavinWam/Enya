@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a385f58003501541b7c0b7ae19b1919, type: 3}
+  m_Name: Beach_Encounter6
+  m_EditorClassIdentifier: 
+  encounterID: 6
+  battleMusic: {fileID: 8300000, guid: b3ad10a970cba8e4b806c1fb52eba412, type: 3}
+  offset: {x: -0.24, y: 3, z: -4}
+  enemyPrefabs:
+  - {fileID: 2697203249665075327, guid: f969b700b4d66484cb1f3258f9cd10d4, type: 3}
+  - {fileID: 6547290275970490948, guid: eb57d3ad549f9144f87bf2ca24281dc4, type: 3}
+  - {fileID: 2697203249665075327, guid: f969b700b4d66484cb1f3258f9cd10d4, type: 3}
+  enemyStats:
+  - {fileID: 11400000, guid: 625ce86dcd0c04543ae963daff215fc4, type: 2}
+  - {fileID: 11400000, guid: 77fe538f1318f7b4aa2c87ea08e98102, type: 2}
+  - {fileID: 11400000, guid: 625ce86dcd0c04543ae963daff215fc4, type: 2}
+  spawnedEnemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyBattlePositions:
+  - {x: 189.17099, y: 25.53, z: -298.56436}
+  - {x: 191.03099, y: 25.53, z: -295.56436}
+  - {x: 188.83098, y: 25.53, z: -293.00436}
+  - {x: 185.99098, y: 25.53, z: -290.92438}
+  - {x: 184.62099, y: 25.53, z: -291.68436}
+  - {x: 190.67099, y: 25.53, z: -299.96436}
+  partyBattlePositions:
+  - {x: 182.65099, y: 26.03, z: -298.51437}
+  - {x: 181.21098, y: 26.03, z: -296.00436}
+  - {x: 178.74098, y: 26.03, z: -293.66437}
+  - {x: 180.86098, y: 26.03, z: -292.61438}
+  temp: 0
+  playerAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 01000000
+  - mainIndex: 1
+    adjacentIndices: 0000000002000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 4
+    adjacentIndices: 03000000
+  enemyAdjacencyDefinitions:
+  - mainIndex: 0
+    adjacentIndices: 05000000
+  - mainIndex: 1
+    adjacentIndices: 0200000000000000
+  - mainIndex: 2
+    adjacentIndices: 0100000003000000
+  - mainIndex: 3
+    adjacentIndices: 0200000004000000
+  - mainIndex: 4
+    adjacentIndices: 03000000

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc99662a1bd36e643b27f2acdb689af7, type: 3}
+  m_Name: PartyData
+  m_EditorClassIdentifier: 
+  generalPartyMembersPrefabs:
+  - {fileID: 7802671966995914233, guid: 521627a9741737543b19729f123ed8f6, type: 3}
+  - {fileID: 7802671966995914233, guid: 765d9384c11a9584dafa942f9efbc10f, type: 3}
+  activePartyMembersPrefabs:
+  - {fileID: 7802671966995914233, guid: 521627a9741737543b19729f123ed8f6, type: 3}
+  - {fileID: 7802671966995914233, guid: 765d9384c11a9584dafa942f9efbc10f, type: 3}
+  inactivePartyMembersPrefabs: []
+  playerStats: {fileID: 11400000, guid: 75a390af06e47a140906e82d5f79b3eb, type: 2}
+  cloneStats:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentHealingItemCount: 5
+  inventory: []

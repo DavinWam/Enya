@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0471291cc4991c449bb858b25131ab6, type: 3}
+  m_Name: DemoStats
+  m_EditorClassIdentifier: 
+  baseHealth: 10000
+  currentHealth: 9000
+  baseAttack: 2
+  baseDefense: 22
+  baseSpeed: 1000
+  weakness: 7
+  activeStatusEffects: []
+  exp: 0
+  totalExp: 50
+  expToNextLevel: 10
+  level: 1
+  baseMana: 5000
+  currentMana: 5000
+  fireType: 0
+  critRate: 0.18
+  blockRate: 0.18
+  spellList:
+  - {fileID: 11400000, guid: bfa861a690e7ee54ea734a696a53a7f1, type: 2}
+  - {fileID: 11400000, guid: 323304f6f64ab874daef276555c9c271, type: 2}
+  - {fileID: 11400000, guid: f9ade33d9f17ac748bfcb08f523988b7, type: 2}
+  - {fileID: 11400000, guid: 268e028c371336948be8276fc8c1fd7f, type: 2}
+  - {fileID: 11400000, guid: 81cc49cabd85f30478b1a496a048ece7, type: 2}
+  equippedGear: []
+  isClone: 0
+  growths: {fileID: 11400000, guid: 8d34fd5c82fa76240bb571938553f725, type: 2}
+  adjustments:
+  - {fileID: 11400000, guid: 6668ced5ad55a744faf2fb2059a33274, type: 2}
+  - {fileID: 11400000, guid: ef793746f7f2e7140bec71fa18759c70, type: 2}
+  - {fileID: 11400000, guid: 80f8ca66be4b25b4b87967b4f7371fc5, type: 2}
+  - {fileID: 11400000, guid: 9616abd8c5a954944b21e6d5ca5cffb7, type: 2}
+  - {fileID: 11400000, guid: 36c9c33e38054cc4880088dc3aff50fb, type: 2}
+  - {fileID: 11400000, guid: f8f4f2551e11fdc41b4e9b278e64859d, type: 2}
+  gameData: {fileID: 11400000, guid: 2ec625c4562d4234297b32fe153a06d2, type: 2}
+  levelUpTextPrefab: {fileID: 8810258910692952545, guid: 6835def01bfc2e744a0d47e02441a0e4, type: 3}
